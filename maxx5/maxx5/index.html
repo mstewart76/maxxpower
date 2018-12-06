@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="MaxxPower website.">
+  <meta name="author" content="MaxxPower">
+  <link rel="icon" href="img/favicon.ico">
+  <title>MAXX⚡Power | Index</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <script src="ajax.googleapis.com/ajax/libs/jquery/3.3.1/www_subdomain/jquery.min.js"></script>
+  <script>
+    function resizeBox() {
+      document.getElementById("body").style.paddingTop = document.getElementById("navbar").scrollHeight
+    }
+  </script>
+</head>
+<body onresize="resizeBox()" id="body">
+  <nav class="nav navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+    <div class="title">
+      <img src="img/logo.png" class="img-fluid" alt="Logo">
+    </div>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" onclick="return fadeOutEffect();">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="outages.html">Power Outages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="faq.html">FAQs</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container index" id="container">
+    <p class="not-centered">
+      At MAXX Power we believe in providing our customers with the best possible service we can. We also believe in protecting the environment and having a safe workplace for our staff.
+    </p>
+  </div>
+  <script>
+    resizeBox()
+  </script>
+  <div class="footer">
+    <p class="footer">
+      Contact us: <br> Phone: (804) 745-6486 Email: maxxpower@gmail.com <br> Address: 201 W. 7th St.Richmond, VA 23224
+    </p>
+  </div>
+</body>
+</html>
